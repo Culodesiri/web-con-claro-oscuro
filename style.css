@@ -1,0 +1,115 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+        max-width: 800px;
+    }
+
+    /* Enlaces del menu */
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #d9534f;
+        padding: 8px 16px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: #c9302c;
+    }
+
+    /* Controles de tema e idioma */
+    .controles {
+        margin-bottom: 20px;
+    }
+
+    #cambio-tema,
+    #selector-idioma {
+        padding: 8px 12px;
+        margin-right: 5px;
+        border: none;
+        border-radius: 4px;
+        background-color: #333333;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    #cambio-tema:hover,
+    #selector-idioma:hover {
+        background-color: #555555;
+    }
+
+    #selector-idioma option {
+        background-color: white;
+        color: black;
+    }
+
+    /* Titulos */
+    h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #d9534f;
+        padding-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    h2,
+    h3 {
+        color: #34495e;
+        margin-top: 20px;
+    }
+
+    /* Textos */
+    p,
+    ul {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    /* Imagenes */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 15px 0;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Tema oscuro */
+    body.oscuro {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    body.oscuro h1 {
+        color: #ffffff;
+    }
+
+    body.oscuro h2,
+    body.oscuro h3 {
+        color: #dddddd;
+    }
+
+    body.oscuro p,
+    body.oscuro li,
+    body.oscuro strong {
+        color: #eeeeee;
+    }
